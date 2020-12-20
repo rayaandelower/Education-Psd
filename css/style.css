@@ -1,0 +1,234 @@
+
+body{
+    background-image: url(../images/bg.png);
+    font-family: 'Dosis', sans-serif;
+    color: #333333;
+    
+}
+
+/* header start */
+header{
+    padding: 3px 0;
+    background-color: #ffd338;
+}
+.menu .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+	outline: none;
+}
+.menu .navbar-toggler {
+	color: rgba(255, 247, 28, 0.7);
+	border-color: rgba(255, 247, 28, 0.7);
+}
+.menu li a{
+    padding:3px 20px !important;
+    font-family: 'Dosis', sans-serif !important;
+    font-size: 18px;
+    font-weight: 700; 
+    color: #fff !important;
+    transition: .4s;
+    border-radius: 20px;
+}
+.menu li a:focus{
+    outline: none;
+}
+.menu li a:hover{
+    border-radius: 20px;
+    background-color: #f05c5c;
+}
+.user{
+    margin-right: 5px;
+    background-color: transparent;
+    font-size: 18px;
+    color: #fff;
+
+}
+.user:hover{
+    color: #fff;
+    background-color: #f05c5c;
+}
+.user:focus{
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(240, 92, 92, 0.50);
+}
+.user_item li a{
+    background-color: 
+    margin: 5px 0;
+    border-radius: 20px;
+    border:1px solid #ffffff;
+}
+
+.user_item li a:hover{
+    
+    border: 1px solid  #f05c5c ;
+}
+.user_item {
+	padding: 10px;
+	background-color: #ffd338;
+	top: 159%;
+	left: -116px;
+	min-width: 11rem;
+}
+.search_item {
+    top: 159%;
+    left: -225px;
+    min-width: 300px;
+    background: #ffd338;
+}
+.search_form{
+    text-align: center;
+}
+.search_input{
+    width: 75%;
+    padding-left: 10px;
+    font-size: 16px;
+    height: 40px;
+    border: 0;
+    color: #444444;
+    border-radius: 5px;
+}
+.search_input:focus{
+	border-color: transparent;
+    box-shadow: none;
+    outline: none;
+}
+.search_button{
+    margin-top: -5px;	
+    font-size: 16px;
+    height: 40px;
+    color: #444444;
+    width: 20%;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 0;
+    transition: .3s ease;
+}
+.search_button:hover{
+    background-color: #f05c5c;
+    color: #fff;
+}
+.search_button:focus + .btn, .btn:focus {
+	outline: 0;
+	box-shadow: none;
+}
+
+.last_user_item {
+	width: 64%;
+	border-radius: 3px;
+}
+.last_user_item li a{
+    text-decoration: none;
+    transition: .3s;
+    border: none;
+}
+.last_user_item li a:hover{
+    border: none;
+    background-color: #fff !important;
+}
+.last-search {
+	padding: 7px;
+	width: 60%;
+	border-radius: 3px;
+}
+.last-search form{
+    text-align: left;
+}
+.last_search_input {
+	width: 79%;
+}
+.last_search .search_button{
+    /* color: #fff; */
+    /* background-color: #009688; */
+    height: 40px;
+    border-radius: 5px;
+    /* border: 1px solid #009688; */
+
+}
+.last_search_input:focus{
+	border-color: none;
+    box-shadow:none
+
+} 
+.last-search .search_submit:hover{
+    color: #444444;
+    background-color: #fff;
+}
+/* header end*/
+/* banner start */
+.banner {
+    background: url(../images/banner_top.png);
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 850px;
+}
+.banner_content h1{
+    padding-top: 230px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #1ec0ff;
+    margin-bottom: 350px;
+
+}
+.scroll p{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #bbbbbb;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.scroll a i{
+    font-size: 25px;
+    color: #bbbbbb;
+    transition: .3s;
+}
+.scroll a i:hover{
+    color: #1ec0ff;
+}
+
+/* banner end */
+/* about start */
+.about{
+   
+}
+.mb_90{
+    margin-bottom: 90px;
+}
+.about_content h2{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+.about_content h2::after{
+    content: "";
+    background: #dddddd;
+    display: block;
+    width: 170px;
+    height: 3px;
+    margin: 20px 0;
+}
+.about_content p{
+    font-family: 'lato', sans-serif;
+   
+}
+.btn_discovery{
+    margin-top: 25px;
+    padding: 18px 31px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #f05c5c;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: url(../images/button.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: .3s;
+}
+.btn_discovery:hover{
+    color: #1ec0ff;
+}
+.about_img img{
+    border-radius: 15px;
+    
+}
+/* about end */
